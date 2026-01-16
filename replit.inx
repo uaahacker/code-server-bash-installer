@@ -1,0 +1,13 @@
+{ pkgs }: {
+  deps = [
+    pkgs.git
+    pkgs.cmake
+    pkgs.gcc
+    pkgs.curl
+
+    pkgs.python311
+    pkgs.python311Packages.pip
+
+    pkgs.nodejs
+  ];
+}
